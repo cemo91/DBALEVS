@@ -1,0 +1,24 @@
+Author: Yuxin Chen
+Created: 09.2012
+Description:  Implementation for the batch-mode active learning algorithm proposed in
+	"Near-optimal batch mode active learning and adaptive submodular optimization", 
+	Yuxin Chen and Andreas Krause, ICML'13.
+
+File list: 
+	main_active.m
+	load_dataset.m
+	batch_active.m
+	hitandrun_sampler.m
+	plot_samples.m
+	out/
+	+data/
+	+data/+UCI/uci_australian_read.m
+	+data/+UCI/uci_wdbc_read.m
+	+data/+UCI/australian.doc
+	+data/+UCI/australian.dat
+	+data/+UCI/wdbc.names
+	+data/+UCI/wdbc.data
+
+Demo: 
+	1. run main_active with default inputs for a demo of the batch-mode active learning algorithm.
+	2. run hitandrun_sampler.m with default inputs for a demo of the noisy hit-and-run sampler
